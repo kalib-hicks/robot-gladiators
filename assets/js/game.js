@@ -15,7 +15,7 @@ var enemyAttack = 12;
 // fight function
 var fight = function() {
   // Alert players that they are starting the round
-  window.alert("Welcome to Robot Gladiators!");
+  window.alert("Welcome to Robot Gladiators!");   
 
   // ask player if they'd like to fight or run
   var promptFight = window.prompt('Would you like to FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
