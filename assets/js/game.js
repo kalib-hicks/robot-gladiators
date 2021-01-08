@@ -29,7 +29,7 @@ var fight = function() {
     );
 
     // check enemy's health
-    if (enemyHealth <= 0) {
+    if (enemyHealth <= 0) {  
       window.alert(enemyName + " has died!");
     } else {
       window.alert(enemyName + " still has " + enemyHealth + " health left.");
